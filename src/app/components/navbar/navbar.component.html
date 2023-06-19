@@ -1,0 +1,48 @@
+
+
+<nav class="container-fluid navbar navbar-expand-lg bg-body-tertiary vw-100" >
+    <div class="container-fluid ">
+        <a class="navbar-brand" href="#">
+            <img src="https://bt-social-listening.demotoday.net/assets/images/app-review-logo-preview.png" alt="Logo" width="150" height="40" class="d-inline-block align-text-top">
+        </a>
+
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+      <div class="collapse navbar-collapse " id="navbarCollapse" >
+        <div class="navbar-nav align-items-center">
+          <a href="#" class="nav-item nav-link disabled" tabindex="-1">
+             <div class="collapse navbar-collapse " id="">
+              <span class="navbar-toggler-icon"></span>
+             </div>
+          </a>
+          <a href="#" class="nav-item nav-link active ">
+              <form class="d-flex align-items-center p-2" role="search">
+                <i class="bi bi-search m-2"></i>
+                <input class="form-control me-2 border-0 " type="search" placeholder="Search now" aria-label="Search">
+                
+              </form></a>
+      </div>
+        <ul class="navbar-nav align-items-center ms-auto">
+          <li class="nav-item m-2">
+              <a class="nav-link m-1" href="#"><i class="bi bi-bell" style="font-size: 20px;"></i></a>
+          </li>
+
+          <li class="nav-item profile" style="float: right;">
+            <div class="dropdown ">
+              <a class="dropdown dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="bi bi-person-circle" style="font-size: 30px;"></i>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end "  aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#"><i class="bi bi-gear m-2"></i>Settings</a></li>
+                <li><a class="dropdown-item" href="#"[routerLink]="['/login']" routerLinkActive="active"><i class="bi bi-box-arrow-right m-2"></i>Logout</a></li>
+                
+              </ul>
+            </div>
+            
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>

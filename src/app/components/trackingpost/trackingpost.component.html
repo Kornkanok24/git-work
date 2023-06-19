@@ -1,0 +1,82 @@
+
+<app-navbar></app-navbar>
+<div class="m-0" style="max-height: 100px;">
+    <div class="row justify-content ">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-2 h-auto" style="background-color:white;">
+        <div class="list-group list-group-flush m-4" id="menu">
+          <a href="#" class="list-group-item list-group-item-action m-2" 
+          [routerLink]="['/dashboard']" routerLinkActive="active">
+            <i class="bi bi-clipboard-data" style="font-size: 20px;"></i>
+            Dashboard</a>
+          <a href="#" class="list-group-item list-group-item-action m-2"
+            [routerLink]="['/trackingpost']" routerLinkActive="active">
+            <i class="bi bi-file-earmark-post" style="font-size: 20px;"></i>
+            Tracking Post</a>
+        </div>
+      
+      </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-10 min-vh-100" style="background-color:#F0F8FF">
+        <!-- post left -->
+        <div class="row m-4">
+          <div class=" col-sm-12 col-md-6 col-lg-5 d-inline">
+            <div class="card mb-5 ">
+                <div class="card-body">
+                    <div class="form-check-reverse align-text-center">
+                        <input class="form-check-input p-2" style="background-color:grey;" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          COMPARE 
+                        </label>
+                    </div>
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Text</p>
+                  <p class="card-text"><small class="text-muted">Text</small></p>
+                  <img style="width: max-content; height: max-content;" src="https://www.drupal.org/files/project-images/b5-new-logo.png" class="card-img-bottom" alt="">
+                  <p class="card-text mt-2">Text</p>
+                </div>
+            </div>
+            <div class="card mb-5 ">
+                <div class="card-body">
+                    <div class="form-check-reverse align-text-center">
+                        <input class="form-check-input p-2" style="background-color:grey;" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          COMPARE 
+                        </label>
+                    </div>
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Text</p>
+                  <p class="card-text"><small class="text-muted">Text</small></p>
+                  <img style="width: max-content; height: max-content;" src="https://www.drupal.org/files/project-images/b5-new-logo.png" class="card-img-bottom" alt="">
+                  <p class="card-text mt-2">Text</p>
+                </div>
+            </div>
+            
+            
+          </div>
+          <!-- chats rigth -->
+          <div class=" col-sm-12 col-md-6 col-lg-7 d-inline" >
+            <div class="container ">
+                <div class="row">
+                    <div class="col-12 mb-5">
+                        <canvas id="line_chart" width="max-content" height="max-content"></canvas>
+                        <!-- <h3 class="text-center mt-3">Line Chart</h3> -->
+                    </div>
+                    <div class="col-12 mb-5">
+                        <canvas id="bar_chart" width="max-content" height="max-content"></canvas>
+                        <!-- <h3 class="text-center mt-3">Bar Chart</h3> -->
+                    </div>
+                </div>
+            </div> 
+
+          </div>
+        </div>
+        
+      </div>
+    </div>
+</div>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+
+
+
